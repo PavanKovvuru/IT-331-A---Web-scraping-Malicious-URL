@@ -19,6 +19,3 @@ Requirements
     Scikit-learn
     BeautifulSoup
     Requests
-
-
-   
