@@ -7,7 +7,6 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Import Scikit-learn helper functions
