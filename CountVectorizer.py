@@ -2,19 +2,13 @@
 import pandas as pd
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import random
-import re
-from joblib import dump
-from joblib import load
 
+import re
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
-import joblib
-import os
 
 # Import Scikit-learn helper functions
 from sklearn.model_selection import train_test_split
@@ -27,7 +21,6 @@ from sklearn.naive_bayes import MultinomialNB
 
 # Import Scikit-learn metric functions
 from sklearn.metrics import confusion_matrix, classification_report
-import seaborn as sns
 from sklearn.model_selection import train_test_split
 
 print("Imported all necessary packages")
