@@ -11,12 +11,14 @@ Features of the code
 4. Classification: Utilizes Multinomial Naive Bayes for classification due to its effectiveness in text classification tasks.
 
 Requirements
-1. Install all these libraries
-    Python 3.x
-    Pandas
-    NumPy
-    Matplotlib
-    Scikit-learn
-    BeautifulSoup
-    Requests
+1. Install all these libraries -
+    Python 3.x,
+    Pandas,
+    NumPy,
+    Matplotlib,
+    Scikit-learn,
+    BeautifulSoup,
+    Requests.
+
+
 Two python code files are created for each method of Vectorization(Countvectorizer.py and TFIDFVectorizer.py) and the Malicious URLs csv should be in same directory and the code files.
